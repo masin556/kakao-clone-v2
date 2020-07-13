@@ -1,46 +1,14 @@
-.friend {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.friends .friends__plus {
+  margin-top: 20px;
+  padding: 20px 0px;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+  margin: 20px 0px;
 }
 
-.friend .friend__avatar {
-  width: 50px;
-  border-radius: 37%;
-}
-
-.friend__avatar .g-avatar {
-  widows: 70px;
-}
-.friend__avatar.m-avatar {
-  width: 60px;
-}
-
-.friend .friend__column {
-  display: flex;
-  align-items: center;
-}
-
-.friend .friend__avatar {
-  margin-right: 15px;
-}
-
-.friend__content .friend__name {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.friend__content .friend__status, /*이 텍스틑 오직 friend화면에만 적용된다*/
-.firend__content .friend__bottom-text, /*이 텍스트는 오직 Chat화면에만 적용되는 부분이다.*/
-.friend .chat__timestamp {
-  opacity: 0.6;
-}
-
-.firend__content .friend__bottom-text {
+.friends__plus .friends__title,
+.friends__list .friends__title {
   font-size: 14px;
-}
-
-.firend__content .friend__status,
-.friend .chat__timestamp {
-  font-size: 12px;
+  opacity: 0.6;
+  margin-bottom: 12px;
 }
